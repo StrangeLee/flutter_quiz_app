@@ -19,7 +19,8 @@ class _SplashScreenState extends State<SplashScreen> {
           "QuizStar",
           style: TextStyle(
             fontSize: 50.0,
-            color: Colors.white
+            color: Colors.white,
+            fontFamily: "Satisfy",
           ),
         ),
       ),
