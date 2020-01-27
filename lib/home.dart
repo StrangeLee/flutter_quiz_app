@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
                 Container(
                   padding: EdgeInsets.all(20.0),
                   child: Text(
-                    "This is some random description blablabla blablabla blablabla blablabla blablabla",
+                    "Preparing Explain Text... Sorry :(",
                     style: TextStyle(
                       fontSize:  18.0,
                       color: Colors.white,
@@ -78,7 +78,6 @@ class _HomePageState extends State<HomePage> {
                     maxLines: 5, // Text 가 차지 할 수 있는 최대 세로 길이, 예시로 /n 을 넣어서 6줄을 만들려고 하면 안됨
                     textAlign: TextAlign.justify, // justify 단어들 사이사이 공백을 조금 더 넓게?, center 가운데 정렬, end(right) 우측 정렬, start(left) 좌측 정렬
                   ),
-
                 ),
               ],
             ),
