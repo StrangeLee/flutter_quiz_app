@@ -221,7 +221,7 @@ class _QuizPageState extends State<QuizPage> {
   // 정답 비교
   void checkAnswer(String key) {
     if (myData[2][i.toString()] == myData[1][i.toString()][key]) {
-      marks = marks + 5;
+      marks = marks + 10;
       colorToShow = colorRight;
     } else {
       colorToShow = colorWrong;

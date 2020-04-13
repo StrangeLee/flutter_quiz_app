@@ -25,10 +25,10 @@ class _ResultPageState extends State<ResultPage> {
 
   @override
   void initState() {
-    if (marks < 20) {
+    if (marks < 50) {
       image = images[2];
       message = "You Should Try Hard...\n" + "You Scored $marks";
-    } else if(marks < 35) {
+    } else if(marks < 80) {
       image = images[1];
       message = "You Could Do Better...\n" + "You Scored $marks !";
     } else {
